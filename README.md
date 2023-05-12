@@ -30,6 +30,7 @@ The metrics are exported also in to a csv file.
 
 ###  Example Output
 
+``` bash
  CTM Working Dir     : /opt/bmcs/scripts/metrcis/20230511
  CTM Environment     : TryBMC
  ---------------------
@@ -47,4 +48,4 @@ The metrics are exported also in to a csv file.
  ---------------------
  CTM MFT Entries     : 0
  CTM Data Export CSV : /opt/bmcs/scripts/metrcis/20230511/mps.mft.entries.csv
-
+```
