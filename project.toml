@@ -1,0 +1,7 @@
+[project]
+name = "ctm.mft.metrics"
+version = "0.1.00"
+description = "Managed File Transfer Metric Management"
+authors = [
+    "Orchestrator <orchestrator@bmc.com>"
+]
