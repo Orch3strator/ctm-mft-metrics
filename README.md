@@ -50,10 +50,12 @@ The metrics are exported also in to a csv file.
  CTM Data Export CSV : /opt/bmcs/scripts/metrcis/20230511/mps.mft.entries.csv
 ```
 
-###  CSV Format
+###  CSV Header Format
 
 ``` bash
     company_name, compressed, ctm_odate, data_center, description, dest, dst_path, duration, encryption, end_time, end_time_update, error_category, error_code, file_name, file_size, file_transfer_end_time, file_transfer_start_time, ftid, gateway_address, group_name, integrity_check, job_name, job_run_count, last_updated, memname, mft_host, mft_ip, order_id, parent_ft, parent_type, progress, protocol_dest, protocol_src, remaining_time, retry_counter, sched_table, site_name, src, src_path, start_time, status, status_reason, transfer_duration, transfer_number, transfer_type, transferred_size, tz_offset, update_time, username
 ```
+
+### CSV File
 
 Sample CSV file: [**mps.mft.entries.csv**](docs/mps.mft.entries.csv)
