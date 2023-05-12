@@ -24,3 +24,27 @@ The script **mps.export.metrics.sh** will export the MFT metrics from the EM dat
     ./mps.export.metrics.sh --credentials Username:Password  --environment TryBMC --server server.name:port --database emdb --past 1
 ```
 
+##  Export
+
+The metrics are exported also in to a csv file. 
+
+###  Example Output
+
+ CTM Working Dir     : /opt/bmcs/scripts/metrcis/20230511
+ CTM Environment     : TryBMC
+ ---------------------
+ CTM Database Name   : emdb
+ CTM Database Server : server.trybmc.local:5432
+ CTM Database Port   : 5432
+ CTM Database User   : ctm
+ CTM Database Pwd    : ********
+ CTM DB Connection   : true
+ ---------------------
+ Current Date Time   : 2023-05-11 20:35:05
+ DB Export Interval  : 1 Hours
+ DB Export Start     : 2023-05-11 19:35:05
+ DB Export End       : 2023-05-11 20:35:05
+ ---------------------
+ CTM MFT Entries     : 0
+ CTM Data Export CSV : /opt/bmcs/scripts/metrcis/20230511/mps.mft.entries.csv
+
