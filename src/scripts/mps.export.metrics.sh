@@ -145,11 +145,11 @@ usage() {
     # shellcheck disable=SC2154 # this is intentional
     echo -e "${Purple}Example:${Color_Off} "
     # shellcheck disable=SC2154 disable=SC2086 # this is intentional
-    echo -e "${Cyan}./$(basename $0)${Color_Off} ${Yellow}--credentials${Color_Off} ctmem:ctmPr3Zales ${Yellow} --environment${Color_Off} TryBMC${Yellow} --server${Color_Off} ctmcore.trybmc.local:5432${Yellow} --database${Color_Off} emdb${Yellow} --start${Color_Off} '2023-03-15 11:00:00'${Yellow} --end${Color_Off} '2023-03-15 12:00:00'"
+    echo -e "${Cyan}./$(basename $0)${Color_Off} ${Yellow}--credentials${Color_Off} user:pwd ${Yellow} --environment${Color_Off} TryBMC${Yellow} --server${Color_Off} server.name:port${Yellow} --database${Color_Off} emdb${Yellow} --start${Color_Off} '2023-03-15 11:00:00'${Yellow} --end${Color_Off} '2023-03-15 12:00:00'"
     # shellcheck disable=SC2154 disable=SC2086 # this is intentional
-    echo -e "${Cyan}./$(basename $0)${Color_Off} ${Yellow}--credentials${Color_Off} ctmem:ctmPr3Zales ${Yellow} --environment${Color_Off} TryBMC${Yellow} --server${Color_Off} ctmcore.trybmc.local:5432${Yellow} --database${Color_Off} emdb"
+    echo -e "${Cyan}./$(basename $0)${Color_Off} ${Yellow}--credentials${Color_Off} user:pwd ${Yellow} --environment${Color_Off} TryBMC${Yellow} --server${Color_Off} server.name:port${Yellow} --database${Color_Off} emdb"
     # shellcheck disable=SC2154 disable=SC2086 # this is intentional
-    echo -e "${Cyan}./$(basename $0)${Color_Off} ${Yellow}--credentials${Color_Off} ctmem:ctmPr3Zales ${Yellow} --environment${Color_Off} TryBMC${Yellow} --server${Color_Off} ctmcore.trybmc.local:5432${Yellow} --database${Color_Off} emdb${Yellow} --past${Color_Off} 1"
+    echo -e "${Cyan}./$(basename $0)${Color_Off} ${Yellow}--credentials${Color_Off} user:pwd ${Yellow} --environment${Color_Off} TryBMC${Yellow} --server${Color_Off} server.name:port${Yellow} --database${Color_Off} emdb${Yellow} --past${Color_Off} 1"
 }
 
 log() {
